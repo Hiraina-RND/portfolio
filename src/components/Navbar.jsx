@@ -6,10 +6,18 @@ function Navbar() {
             <nav className="flex flex-row w-full justify-between items-center px-8 py-2">
                 <img src="../../public/mada_flag.jpg" alt="mada_flag_img" className="h-full w-[50px]" />
                 <ul className="flex justify-center items-center gap-10 text-white text-xl font-bold">
-                    <li>Hero</li>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
+                    <li>
+                        <a href="">Hero</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Skills</a>
+                    </li>
+                    <li>
+                        <a href="">Projects</a>
+                    </li>
                 </ul>
             </nav>
         </header>
