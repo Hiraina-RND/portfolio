@@ -2,7 +2,7 @@ import "./navbar.css"
 
 function Navbar() {
     return (
-        <header className="header fixed top-3 left-1/2 w-[80%] border-2 border-white flex justify-center transform -translate-x-1/2 backdrop-blur-md rounded-full">
+        <header className="header fixed top-3 left-1/2 w-[80%] border-2 border-white flex justify-center transform -translate-x-1/2 backdrop-blur-md rounded-full z-10">
             <nav className="flex flex-row w-full justify-between items-center px-8 py-4">
                 <img src="/mada_flag.jpg" alt="mada_flag_img" className="h-full w-[50px]" />
                 <ul className="flex justify-center items-center gap-16 text-white text-xl font-semibold">
