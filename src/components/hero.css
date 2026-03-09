@@ -1,19 +1,19 @@
 .hero-section {
     position: relative;
-    background: radial-gradient(circle at 30% 60%,
+    background: radial-gradient(circle at 30% 40%,
                 rgb(var(--color-primary), 0.25),
-                transparent 28%),
+                transparent 40%),
                 radial-gradient(circle at 80% 60%,
                 rgb(var(--color-primary), 0.4),
                 transparent 20%);
 }
 
 .buttons .contact-button {
-    background-color: rgb(var(--color-secondary));
+    background-color: rgb(var(--color-primary));
 }
 
 .buttons .download-cv-button {
-    border: 3px solid rgb(var(--color-secondary));
+    border: 3px solid rgb(var(--color-primary));
 }
 
 .profil {
