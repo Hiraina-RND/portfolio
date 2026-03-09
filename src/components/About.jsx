@@ -1,7 +1,45 @@
+import theMan from "../assets/images/the_man.png"
+import "./about.css"
+
 function About() {
     return (
-        <section className="bg-black mt-[100px] mx-[10%] h-[400px] rounded-2xl">
-
+        <section className="about-section flex flex-col gap-12 mt-[100px] mx-[10%] h-auto p-16 rounded-2xl">
+            <h1 className="title text-4xl text-white font-semibold">ABOUT</h1>
+            <div className="content flex flex-row items-center">
+                <img src={theMan} alt="the_man.png" className="w-[400px] h-auto" />
+                <ul className="content-items mr-[10%] text-white flex flex-col gap-16">
+                    <li className="flex flex-row items-center gap-6">
+                        <i class="fa-solid fa-user text-6xl"></i>
+                        <div className="flex flex-col gap-2">
+                            <h2 className="text-2xl font-bold">About Me</h2>
+                            <p className="text-lg">
+                                I’m a computer science student and a full-stack Java developer. I enjoy building modern web applications
+                                using React for the frontend and Spring Boot for the backend.
+                            </p>
+                        </div>
+                    </li>
+                    <li className="flex flex-row items-center gap-6">
+                        <i class="fa-solid fa-code text-6xl"></i>
+                        <div className="flex flex-col gap-2">
+                            <h2 className="text-2xl font-bold">What I Do</h2>
+                            <p className="text-lg">
+                                I develop full-stack applications by creating user interfaces, building REST APIs, and connecting them to databases.
+                                I like understanding how each part of an application works together.
+                            </p>
+                        </div>
+                    </li>
+                    <li className="flex flex-row items-center gap-6">
+                        <i class="fa-solid fa-rocket text-6xl"></i>
+                        <div className="flex flex-col gap-2">
+                            <h2 className="text-2xl font-bold">My Goal</h2>
+                            <p className="text-lg">
+                                My goal is to keep improving my skills, learn new technologies,
+                                and build useful applications while growing as a developer.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
     )
 }

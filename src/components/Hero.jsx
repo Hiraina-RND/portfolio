@@ -10,7 +10,7 @@ function Hero() {
                     Full-stack Java developer passionate about creating modern and scalable web applications,
                     using React for the frontend and Spring Boot for the backend.
                 </p>
-                <div className="buttons w-full text-3xl text-white flex flex-row gap-8 max-w-[90%]">
+                <div className="buttons w-full text-2xl text-white flex flex-row gap-8 max-w-[90%]">
                     <button className="contact-button flex flex-row justify-center items-center gap-4 px-8 py-4 rounded-full">
                         <i class="fa-regular fa-envelope "></i>
                         <span className="font-bold">contact me</span>

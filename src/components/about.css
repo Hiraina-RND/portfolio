@@ -1,0 +1,9 @@
+.about-section {
+    background: radial-gradient(circle at 30% 40%,
+                rgb(var(--color-secondary), 0.1),
+                transparent 100%),
+                radial-gradient(circle at 80% 80%,
+                rgb(var(--color-secondary), 0.1),
+                transparent 100%),
+                rgb(var(--color-bg-black));
+}
