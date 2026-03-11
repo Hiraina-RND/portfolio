@@ -1,3 +1,9 @@
 .app-container {
-    background: rgb(var(--color-bg));
+        background: radial-gradient(circle at 30% 40%,
+                rgb(var(--color-primary), 0.25),
+                transparent 80%),
+                radial-gradient(circle at 80% 60%,
+                rgb(var(--color-primary), 0.4),
+                transparent 60%),
+                rgb(var(--color-bg));
 }
