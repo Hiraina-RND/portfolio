@@ -2,8 +2,8 @@ import Navbar from "./components/Navbar.jsx"
 import Hero from "./components/Hero"
 import About from "./components/About"
 import Educations from "./components/Educations"
-import Skills from "./components/Skills"
-import Projects from "./components/Projects"
+import Skills from "./components/skills/Skills.jsx"
+import Projects from "./components/projects/Projects.jsx"
 import "./variables.css"
 
 function App() {

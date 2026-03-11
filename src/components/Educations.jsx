@@ -2,8 +2,8 @@ import "./educations.css"
 
 function Educations() {
     return (
-        <section className="educations-section text-white flex flex-col gap-18 mt-16 mx-[10%] h-auto p-16">
-            <h2 className="text-4xl font-bold">EDUCATIONS</h2>
+        <section className="educations-section text-white flex flex-col gap-18 mt-18 mx-[10%] h-auto">
+            <h2 className="text-4xl font-semibold">EDUCATIONS</h2>
             <div className="timeline relative flex flex-col gap-10 pl-[10%] ml-[10%]">
                 <div className="timeline-marker absolute -left-3 flex justify-center items-center w-[30px] h-[30px] bg-black rounded-full">
                     <div className="markerDot w-[20px] h-[20px] rounded-full"></div>

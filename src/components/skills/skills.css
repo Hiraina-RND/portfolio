@@ -1,0 +1,17 @@
+.scroll-track {
+    animation: scroll 20s linear infinite;
+}
+
+.infinite-carousel {
+    border-top: 1px solid rgb(var(--color-primary));
+    border-bottom: 1px solid rgb(var(--color-primary));
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50.5%);
+    }
+}
