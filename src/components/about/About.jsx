@@ -1,4 +1,4 @@
-import theMan from "../../assets/images/the_man.png"
+import theMan from "../../assets/images/about_img.png"
 import "./about.css"
 
 function About() {
