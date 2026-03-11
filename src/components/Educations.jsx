@@ -2,7 +2,7 @@ import "./educations.css"
 
 function Educations() {
     return (
-        <section className="educations-section text-white flex flex-col gap-18 mt-[100px] mx-[10%] h-auto p-16">
+        <section className="educations-section text-white flex flex-col gap-18 mt-16 mx-[10%] h-auto p-16">
             <h2 className="text-4xl font-bold">EDUCATIONS</h2>
             <div className="timeline relative flex flex-col gap-10 pl-[10%] ml-[10%]">
                 <div className="timeline-marker absolute -left-3 flex justify-center items-center w-[30px] h-[30px] bg-black rounded-full">
@@ -19,7 +19,7 @@ function Educations() {
                 </div>
                 <div className="timeline-content flex flex-col items-start gap-1">
                     <div className="date-range text-center font-bold px-4 py-2 rounded-full">2024 - 2025</div>
-                    <h3 className="text-2xl font-bold">Baccalaureat</h3>
+                    <h3 className="text-2xl font-bold">High School Diploma</h3>
                     <h4 className="school text-xl font-bold">Lycee sacre coeur de Behenjy</h4>
                     <p className="text-gray-400">Behenjy 104</p>
                 </div>
