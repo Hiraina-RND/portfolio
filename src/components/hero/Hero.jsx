@@ -1,4 +1,4 @@
-import profil from "../assets/images/Profil.png"
+import profil from "../../assets/images/Profil.png"
 import "./hero.css"
 
 function Hero() {
