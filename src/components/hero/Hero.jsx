@@ -12,11 +12,11 @@ function Hero() {
                 </p>
                 <div className="buttons w-full text-3xl text-white flex flex-row gap-5 max-w-[90%]">
                     <button className="contact-button flex flex-row justify-center items-center gap-4 px-6 py-4 rounded-full">
-                        <i class="fa-regular fa-envelope "></i>
+                        <i className="fa-regular fa-envelope "></i>
                         <span className="font-semibold">Contact me</span>
                     </button>
                     <button className="download-cv-button flex flex-row justify-center items-center gap-4 px-8 py-4 rounded-full">
-                        <i class="fa-solid fa-download"></i>
+                        <i className="fa-solid fa-download"></i>
                         <span className="font-semibold">Download CV</span>
                     </button>
                 </div>

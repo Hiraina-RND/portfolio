@@ -7,19 +7,19 @@ function Navbar() {
                 <img src="/mada_flag.jpg" alt="mada_flag_img" className="h-full w-[50px]" />
                 <ul className="flex justify-center items-center gap-16 text-white text-xl font-semibold">
                     <li className="flex flex-row justify-center items-center gap-2">
-                        <i class="fa-solid fa-house"></i>
+                        <i className="fa-solid fa-house"></i>
                         <a href="">Hero</a>
                     </li>
                     <li className="flex flex-row justify-center items-center gap-2">
-                        <i class="fa-solid fa-circle-info"></i>
+                        <i className="fa-solid fa-circle-info"></i>
                         <a href="">About</a>
                     </li>
                     <li className="flex flex-row justify-center items-center gap-2">
-                        <i class="fa-solid fa-code"></i>
+                        <i className="fa-solid fa-code"></i>
                         <a href="">Skills</a>
                     </li>
                     <li className="flex flex-row justify-center items-center gap-2">
-                        <i class="fa-solid fa-folder-closed"></i>
+                        <i className="fa-solid fa-folder-closed"></i>
                         <a href="">Projects</a>
                     </li>
                 </ul>

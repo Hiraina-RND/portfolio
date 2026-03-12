@@ -9,7 +9,7 @@ function About() {
                 <img src={theMan} alt="the_man.png" className="h-[400px]" />
                 <ul className="content-items mr-[10%] text-white flex flex-col gap-16">
                     <li className="flex flex-row items-center gap-16">
-                        <i class="fa-solid fa-user text-6xl"></i>
+                        <i className="fa-solid fa-user text-6xl"></i>
                         <div className="flex flex-col gap-2">
                             <h3 className="text-2xl font-bold">About Me</h3>
                             <p className="text-lg">
@@ -19,7 +19,7 @@ function About() {
                         </div>
                     </li>
                     <li className="flex flex-row items-center gap-11">
-                        <i class="fa-solid fa-code text-6xl"></i>
+                        <i className="fa-solid fa-code text-6xl"></i>
                         <div className="flex flex-col gap-2">
                             <h3 className="text-2xl font-bold">What I Do</h3>
                             <p className="text-lg">
@@ -29,7 +29,7 @@ function About() {
                         </div>
                     </li>
                     <li className="flex flex-row items-center gap-16">
-                        <i class="fa-solid fa-rocket text-6xl"></i>
+                        <i className="fa-solid fa-rocket text-6xl"></i>
                         <div className="flex flex-col gap-2">
                             <h3 className="text-2xl font-bold">My Goal</h3>
                             <p className="text-lg">
