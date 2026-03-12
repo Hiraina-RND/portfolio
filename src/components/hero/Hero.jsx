@@ -3,7 +3,7 @@ import "./hero.css"
 
 function Hero() {
     return (
-        <section className="hero-section h-[100vh] pt-24 relative flex flex-row justify-between items-center pl-[10%] pr-[10%]">
+        <section id="hero" className="hero-section h-[100vh] pt-24 relative flex flex-row justify-between items-center pl-[10%] pr-[10%]">
             <div className="content flex flex-col gap-14">
                 <h1 className="content-title text-6xl text-white font-bold tracking-wide">Hello, I'm Hiraina</h1>
                 <p className="text-white font-larger text-2xl mt-4 max-w-[98%]">

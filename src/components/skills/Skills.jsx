@@ -28,7 +28,7 @@ function Skills() {
 
 
     return (
-        <section className="skills-section flex flex-col gap-12 px-[10%] py-24">
+        <section id="skills" className="skills-section flex flex-col gap-12 px-[10%] py-24">
             <h2 className="text-white text-4xl font-semibold">TECHNOLOGIES I HAVE WORKED WITH</h2>
             <div className="infinite-carousel relative py-14">
                 <div className="shadow-left absolute left-0 top-0 h-full w-16 bg-gradient-to-r from-black/50 to-transparent z-10"></div>

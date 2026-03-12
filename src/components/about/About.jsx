@@ -3,7 +3,7 @@ import "./about.css"
 
 function About() {
     return (
-        <section className="about-section flex flex-col gap-12 mx-[10%] h-auto px-24 py-10 rounded-2xl">
+        <section id="about" className="about-section flex flex-col gap-12 mx-[10%] h-auto px-24 py-10 rounded-2xl">
             <h2 className="title text-4xl text-white font-semibold pt-6">ABOUT</h2>
             <div className="content flex flex-row items-center gap-24">
                 <img src={theMan} alt="the_man.png" className="h-[400px]" />

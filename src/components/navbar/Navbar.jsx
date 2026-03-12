@@ -8,19 +8,23 @@ function Navbar() {
                 <ul className="flex justify-center items-center gap-16 text-white text-xl font-semibold">
                     <li className="flex flex-row justify-center items-center gap-2">
                         <i className="fa-solid fa-house"></i>
-                        <a href="">Hero</a>
+                        <a href="#hero">Hero</a>
                     </li>
                     <li className="flex flex-row justify-center items-center gap-2">
                         <i className="fa-solid fa-circle-info"></i>
-                        <a href="">About</a>
+                        <a href="#about">About</a>
+                    </li>
+                    <li className="flex flex-row justify-center items-center gap-2">
+                        <i className="fa-solid fa-graduation-cap"></i>
+                        <a href="#education">Education</a>
                     </li>
                     <li className="flex flex-row justify-center items-center gap-2">
                         <i className="fa-solid fa-code"></i>
-                        <a href="">Skills</a>
+                        <a href="#skills">Skills</a>
                     </li>
                     <li className="flex flex-row justify-center items-center gap-2">
                         <i className="fa-solid fa-folder-closed"></i>
-                        <a href="">Projects</a>
+                        <a href="#project">Projects</a>
                     </li>
                 </ul>
             </nav>
