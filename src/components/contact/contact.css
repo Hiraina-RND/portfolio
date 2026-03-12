@@ -1,0 +1,20 @@
+.contact-section {
+    background-color: rgb(var(--color-secondary));
+}
+
+.link,
+#contact-textarea {
+    background-color: rgba(var(--color-text), 0.1);
+}
+
+.contact-box-title {
+    color: rgb(var(--color-contact-box-title));
+}
+
+.form {
+    background-color: rgb(var(--color-bg));
+}
+
+.submit-btn {
+    background-color: rgb(var(--color-primary));
+}
