@@ -1,7 +1,30 @@
+import { useState } from "react";
 import "./contact.css"
 import Input from "./Input.jsx"
 
 function Contact() {
+    const [formData, setFormData] = useState({
+        name: "",
+        subject: "",
+        message: ""
+    });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData(prev => ({ ...prev, [name]: value }));
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        const body = `Bonjour,\n\n${formData.message}\n\nCordialement,\n${formData.name}`;
+        const gmailLink = `https://mail.google.com/mail/?view=cm&to=hei.hiraina@gmail.com&su=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(body)}`;
+
+        window.open(gmailLink, "_blank");
+
+        setFormData({ name: "", subject: "", message: "" });
+    };
+
     return (
         <section className="contact-section w-[100%] flex flex-row items-center gap-10 px-[10%] py-24 bg-black">
             <div className="contact-box flex-1 flex flex-col justify-center items-start gap-10 text-white">
@@ -9,7 +32,7 @@ function Contact() {
                 <p className="text-3xl">Feel free to reach out!</p>
                 <ul className="links w-[90%] text-xl text-white font-medium flex flex-col gap-4">
                     <li className="link py-6 rounded-lg">
-                        <a 
+                        <a
                             href="mailto:hei.hiraina@gmail.com"
                             className="flex flex-row justify-center items-center gap-2"
                         >
@@ -39,16 +62,20 @@ function Contact() {
                     </li>
                 </ul>
             </div>
-            <form className="form text-white flex-1 flex flex-col gap-8 py-8 items-center rounded-2xl">
+            <form
+                className="form text-white flex-1 flex flex-col gap-8 py-8 items-center rounded-2xl"
+                onSubmit={handleSubmit}
+            >
                 <h2 className="text-4xl">Send me a message</h2>
-                <Input type="text" placeholder="Your name"/>
-                <Input type="email" placeholder="Your email(example@gmail.com)" />
-                <Input type="text" placeholder="Subject" />
+                <Input type="text" placeholder="Your name" name="name" value={formData.name} onChange={handleChange} />
+                <Input type="text" placeholder="Subject" name="subject" value={formData.subject} onChange={handleChange} />
                 <textarea
-                    name="contact-textarea"
+                    name="message"
                     id="contact-textarea"
                     className="w-[90%] py-10 px-6 rounded-lg"
                     placeholder="Your message here ..."
+                    value={formData.message}
+                    onChange={handleChange}
                 ></textarea>
                 <button type="submit" className="submit-btn flex flex-row justify-center items-center gap-4 font-medium text-xl w-[90%] py-4 rounded-lg">
                     <i className="fa-solid fa-paper-plane"></i>
