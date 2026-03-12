@@ -9,19 +9,30 @@ function Contact() {
                 <p className="text-3xl">Feel free to reach out!</p>
                 <ul className="links w-[90%] text-xl text-white font-medium flex flex-col gap-4">
                     <li className="link py-6 rounded-lg">
-                        <a href="mailto:hei.hiraina@gmail.com" className="flex flex-row justify-center items-center gap-2">
+                        <a 
+                            href="mailto:hei.hiraina@gmail.com"
+                            className="flex flex-row justify-center items-center gap-2"
+                        >
                             <i className="fa-solid fa-envelope"></i>
                             <span>hei.hiraina@gmail.com</span>
                         </a>
                     </li>
                     <li className="link py-6 rounded-lg">
-                        <a href="https://www.linkedin.com/in/hiraina-randriamiarimbola-13a790353" className="flex flex-row justify-center items-center gap-2">
+                        <a
+                            href="https://www.linkedin.com/in/hiraina-randriamiarimbola-13a790353"
+                            target="_blank"
+                            className="flex flex-row justify-center items-center gap-2"
+                        >
                             <i className="fa-brands fa-linkedin"></i>
                             <span>hiraina-randriamiarimbola</span>
                         </a>
                     </li>
                     <li className="link py-6 rounded-lg">
-                        <a href="https://www.github.com/Hiraina-RND" className="flex flex-row justify-center items-center gap-2">
+                        <a
+                            href="https://www.github.com/Hiraina-RND"
+                            target="_blank"
+                            className="flex flex-row justify-center items-center gap-2"
+                        >
                             <i className="fa-brands fa-github"></i>
                             <span>github.com/Hiraina-RND</span>
                         </a>
