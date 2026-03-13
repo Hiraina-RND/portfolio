@@ -29,23 +29,23 @@ function Navbar() {
             <nav className="flex flex-row w-full justify-between items-center px-8">
                 <img src="/mada_flag.jpg" alt="mada_flag_img" className="h-auto w-[50px]" />
                 <ul className="h-full flex justify-center items-center gap-6 text-white text-xl font-semibold">
-                    <li className={`h-[90%] flex flex-row justify-center items-center gap-2 px-4 rounded-4xl ${activeSection === "hero" ? "bg-white/10" : ""}`}>
+                    <li className={`h-[80%] flex flex-row justify-center items-center gap-2 px-4 rounded-xs ${activeSection === "hero" ? "bg-white/10 border-b-1" : ""}`}>
                         <i className="fa-solid fa-house"></i>
                         <a href="#hero">Hero</a>
                     </li>
-                    <li className={`h-[90%] flex flex-row justify-center items-center gap-2 px-4 rounded-4xl ${activeSection === "about" ? "bg-white/10" : ""}`}>
+                    <li className={`h-[80%] flex flex-row justify-center items-center gap-2 px-4 rounded-xs ${activeSection === "about" ? "bg-white/10 border-b" : ""}`}>
                         <i className="fa-solid fa-circle-info"></i>
                         <a href="#about">About</a>
                     </li>
-                    <li className={`h-[90%] flex flex-row justify-center items-center gap-2 px-4 rounded-4xl ${activeSection === "education" ? "bg-white/10" : ""}`}>
+                    <li className={`h-[80%] flex flex-row justify-center items-center gap-2 px-4 rounded-xs ${activeSection === "education" ? "bg-white/10 border-b" : ""}`}>
                         <i className="fa-solid fa-graduation-cap"></i>
                         <a href="#education">Education</a>
                     </li>
-                    <li className={`h-[90%] flex flex-row justify-center items-center gap-2 px-4 rounded-4xl ${activeSection === "skills" ? "bg-white/10" : ""}`}>
+                    <li className={`h-[80%] flex flex-row justify-center items-center gap-2 px-4 rounded-xs ${activeSection === "skills" ? "bg-white/10 border-b" : ""}`}>
                         <i className="fa-solid fa-code"></i>
                         <a href="#skills">Skills</a>
                     </li>
-                    <li className={`h-[90%] flex flex-row justify-center items-center gap-2 px-4 rounded-4xl ${activeSection === "project" ? "bg-white/10" : ""}`}>
+                    <li className={`h-[80%] flex flex-row justify-center items-center gap-2 px-4 rounded-xs ${activeSection === "project" ? "bg-white/10 border-b" : ""}`}>
                         <i className="fa-solid fa-folder-closed"></i>
                         <a href="#project">Projects</a>
                     </li>
