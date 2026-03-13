@@ -3,12 +3,12 @@ import "./about.css"
 
 function About() {
     return (
-        <section id="about" className="about-section flex flex-col gap-12 mx-[10%] h-auto px-24 py-10 rounded-2xl">
+        <section id="about" className="about-section max-lg:px-8 max-sm:mx-[2%] flex flex-col gap-12 mx-[10%] h-auto px-24 py-10 rounded-2xl">
             <h2 className="title text-4xl text-white font-semibold pt-6">ABOUT</h2>
-            <div className="content flex flex-row items-center gap-24">
-                <img src={theMan} alt="the_man.png" className="h-[400px]" />
-                <ul className="content-items mr-[10%] text-white flex flex-col gap-16">
-                    <li className="flex flex-row items-center gap-16">
+            <div className="content lg:gap-24 flex flex-row items-center">
+                <img src={theMan} alt="the_man.png" className="max-xl:hidden h-[400px]" />
+                <ul className="content-items text-white flex flex-col gap-16">
+                    <li className="max-lg:gap-4 max-lg:justify-start flex flex-row items-center gap-16">
                         <i className="fa-solid fa-user text-6xl"></i>
                         <div className="flex flex-col gap-2">
                             <h3 className="text-2xl font-bold">About Me</h3>
@@ -18,7 +18,7 @@ function About() {
                             </p>
                         </div>
                     </li>
-                    <li className="flex flex-row items-center gap-11">
+                    <li className="max-lg:gap-4 max-lg:justify-start flex flex-row items-center gap-11">
                         <i className="fa-solid fa-code text-6xl"></i>
                         <div className="flex flex-col gap-2">
                             <h3 className="text-2xl font-bold">What I Do</h3>
@@ -28,7 +28,7 @@ function About() {
                             </p>
                         </div>
                     </li>
-                    <li className="flex flex-row items-center gap-16">
+                    <li className="max-lg:gap-4 max-lg:justify-start flex flex-row items-center gap-16">
                         <i className="fa-solid fa-rocket text-6xl"></i>
                         <div className="flex flex-col gap-2">
                             <h3 className="text-2xl font-bold">My Goal</h3>

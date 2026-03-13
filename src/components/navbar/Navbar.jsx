@@ -25,10 +25,10 @@ function Navbar() {
     }, []);
 
     return (
-        <header className="header h-16 fixed top-1 left-1/2 w-[80%] border-2 border-white flex justify-center transform -translate-x-1/2 backdrop-blur-md rounded-4xl shadow-xl z-10">
+        <header className="header max-lg:w-[90%] h-16 fixed top-1 left-1/2 w-[80%] border-2 border-white flex justify-center transform -translate-x-1/2 backdrop-blur-md rounded-4xl shadow-xl z-1000">
             <nav className="flex flex-row w-full justify-between items-center px-8">
                 <img src="/mada_flag.jpg" alt="mada_flag_img" className="h-auto w-[50px]" />
-                <ul className="h-full flex justify-center items-center gap-6 text-white text-xl font-semibold">
+                <ul className="max-xl:hidden h-full flex justify-center items-center gap-6 text-white text-xl font-semibold">
                     <li className={`h-[80%] flex flex-row justify-center items-center gap-2 px-4 rounded-xs ${activeSection === "hero" ? "bg-white/10 border-b-1" : ""}`}>
                         <i className="fa-solid fa-house"></i>
                         <a href="#hero">Hero</a>
@@ -50,6 +50,9 @@ function Navbar() {
                         <a href="#project">Projects</a>
                     </li>
                 </ul>
+                <div className="hamburger-menu min-xl:hidden flex justify-center items-center h-[70%] px-4 bg-white/10 rounded-sm">
+                    <i class="fa fa-bars text-2xl text-white"></i>
+                </div>
             </nav>
         </header>
     );

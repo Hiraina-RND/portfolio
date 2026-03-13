@@ -26,47 +26,47 @@ function Contact() {
     };
 
     return (
-        <section id="contact" className="contact-section w-[100%] flex flex-row items-center gap-10 px-[10%] py-24 bg-black">
-            <div className="contact-box flex-1 flex flex-col justify-center items-start gap-10 text-white">
+        <section id="contact" className="contact-section max-lg:flex-col w-[100%] flex flex-row items-center gap-10 px-[10%] py-24">
+            <div className="contact-box max-lg:w-full flex-1 flex flex-col justify-center items-start gap-10 text-white">
                 <h2 className="contact-box-title text-6xl font-semibold">Contact</h2>
                 <p className="text-3xl">Feel free to reach out!</p>
-                <ul className="links w-[90%] text-xl text-white font-medium flex flex-col gap-4">
-                    <li className="link py-6 rounded-lg">
+                <ul className="links max-lg:w-full w-[90%] text-xl text-white font-medium flex flex-col gap-4">
+                    <li className="link max-sm:pl-4 py-6 rounded-lg flex justify-start pl-8">
                         <a
                             href="mailto:hei.hiraina@gmail.com"
                             className="flex flex-row justify-center items-center gap-2"
                         >
                             <i className="fa-solid fa-envelope"></i>
-                            <span>hei.hiraina@gmail.com</span>
+                            <span className="max-sm:text-lg">hei.hiraina@gmail.com</span>
                         </a>
                     </li>
-                    <li className="link py-6 rounded-lg">
-                        <a
-                            href="https://www.linkedin.com/in/hiraina-randriamiarimbola-13a790353"
-                            target="_blank"
-                            className="flex flex-row justify-center items-center gap-2"
-                        >
-                            <i className="fa-brands fa-linkedin"></i>
-                            <span>hiraina-randriamiarimbola</span>
-                        </a>
-                    </li>
-                    <li className="link py-6 rounded-lg">
+                    <li className="link max-sm:pl-4 py-6 rounded-lg flex justify-start pl-8">
                         <a
                             href="https://www.github.com/Hiraina-RND"
                             target="_blank"
                             className="flex flex-row justify-center items-center gap-2"
                         >
                             <i className="fa-brands fa-github"></i>
-                            <span>github.com/Hiraina-RND</span>
+                            <span className="max-sm:text-lg">github.com/Hiraina-RND</span>
+                        </a>
+                    </li>
+                    <li className="link max-sm:pl-4 py-6 rounded-lg flex justify-start pl-8">
+                        <a
+                            href="https://www.linkedin.com/in/hiraina-randriamiarimbola-13a790353"
+                            target="_blank"
+                            className="flex flex-row justify-center items-center gap-2"
+                        >
+                            <i className="fa-brands fa-linkedin"></i>
+                            <span className="max-sm:text-lg">hiraina-randria</span>
                         </a>
                     </li>
                 </ul>
             </div>
             <form
-                className="form text-white flex-1 flex flex-col gap-8 py-8 items-center rounded-2xl"
+                className="form max-lg:w-full text-white flex-1 flex flex-col gap-8 py-8 items-center rounded-2xl"
                 onSubmit={handleSubmit}
             >
-                <h2 className="text-4xl">Send me a message</h2>
+                <h2 className="max-lg:text-2xl text-center text-4xl">Send me a message</h2>
                 <Input type="text" placeholder="Your name" name="name" value={formData.name} onChange={handleChange} />
                 <Input type="text" placeholder="Subject" name="subject" value={formData.subject} onChange={handleChange} />
                 <textarea
