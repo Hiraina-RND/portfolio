@@ -11,14 +11,14 @@ function Hero() {
                     using React for the frontend and Spring Boot for the backend.
                 </p>
                 <div className="buttons w-full text-3xl text-white flex flex-row gap-5 max-w-[90%]">
-                    <button className="contact-button flex flex-row justify-center items-center gap-4 px-6 py-4 rounded-full">
+                    <a href="#contact" className="contact-button flex flex-row justify-center items-center gap-4 px-6 py-4 rounded-full">
                         <i className="fa-regular fa-envelope "></i>
                         <span className="font-semibold">Contact me</span>
-                    </button>
-                    <button className="download-cv-button flex flex-row justify-center items-center gap-4 px-8 py-4 rounded-full">
+                    </a>
+                    <a href="" className="download-cv-button flex flex-row justify-center items-center gap-4 px-8 py-4 rounded-full">
                         <i className="fa-solid fa-download"></i>
                         <span className="font-semibold">Download CV</span>
-                    </button>
+                    </a>
                 </div>
             </div>
             <img src={profil} alt="profil_img" className="profil w-[350px] h-[350px] rounded-full border-4 border-white" />

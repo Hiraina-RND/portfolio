@@ -26,7 +26,7 @@ function Contact() {
     };
 
     return (
-        <section className="contact-section w-[100%] flex flex-row items-center gap-10 px-[10%] py-24 bg-black">
+        <section id="contact" className="contact-section w-[100%] flex flex-row items-center gap-10 px-[10%] py-24 bg-black">
             <div className="contact-box flex-1 flex flex-col justify-center items-start gap-10 text-white">
                 <h2 className="contact-box-title text-6xl font-semibold">Contact</h2>
                 <p className="text-3xl">Feel free to reach out!</p>
