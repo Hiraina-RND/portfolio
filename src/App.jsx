@@ -6,12 +6,15 @@ import Skills from "./components/skills/Skills.jsx"
 import Projects from "./components/projects/Projects.jsx"
 import Contact from "./components/contact/Contact.jsx"
 import Footer from "./components/footer/Footer.jsx"
+import CursorEffect from "./components/cursorEffect/CursorEffect.jsx"
 import "./variables.css"
 
 function App() {
 
   return (
     <div className="app-container min-h-screen">
+      <CursorEffect />
+
       <Navbar />
       <Hero />
       <About />
