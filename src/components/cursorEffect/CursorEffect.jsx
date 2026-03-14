@@ -19,7 +19,7 @@ function CursorEffect() {
   }, []);
 
   return (
-    <>
+    <div className="max-sm:hidden">
       <motion.div
         style={{
           position: "fixed",
@@ -50,7 +50,7 @@ function CursorEffect() {
           boxShadow: "0 0 8px rgba(255,255,255,0.8)",
         }}
       />
-    </>
+    </div>
   );
 }
 
